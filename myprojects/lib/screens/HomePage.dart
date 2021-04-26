@@ -172,7 +172,7 @@ class HomePage extends StatelessWidget {
                       TextButton(
                           //link to github repository
                           child: Text(
-                            'https://github.com/SetNameHere/MyProjects-Platform',
+                            'https://github.com/SetNameHere/MyProjects-2021',
                             style: TextStyle(
                               fontSize: 20,
                               height: 1.5,
@@ -181,7 +181,7 @@ class HomePage extends StatelessWidget {
                             ),
                           ),
                           onPressed: () => launch(
-                              'https://github.com/SetNameHere/MyProjects-Platform')),
+                              'https://github.com/SetNameHere/MyProjects-2021')),
                       SizedBox(height: height * 0.025),
                       Text(
                         'Du hast noch keine Ahnung von Git, GitHub, Flutter (Web) oder Firebase, was die Grundlage für MyProjects bildet? Kein Problem! Dann ist das deine erste Challenge. Recherchiere und beschäftige dich mit den  Technologien. Probiere sie aktiv aus. Tutorials gibt es im Internet genug. Insbesondere, falls du später mit der Entwicklung von Software zu tun haben willst, wird sich der Aufwand für dich sicher lohnen!',

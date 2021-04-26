@@ -89,7 +89,7 @@ class Learnpaths extends StatelessWidget {
                       TextButton(
                           //link to github repository
                           child: Text(
-                            'https://github.com/SetNameHere/MyProjects-Platform',
+                            'https://github.com/SetNameHere/MyProjects-2021',
                             style: TextStyle(
                               fontSize: 20,
                               height: 1.5,
@@ -98,7 +98,7 @@ class Learnpaths extends StatelessWidget {
                             ),
                           ),
                           onPressed: () => launch(
-                              'https://github.com/SetNameHere/MyProjects-Platform')),
+                              'https://github.com/SetNameHere/MyProjects-2021')),
                       SizedBox(height: height * 0.03),
                       Text(
                         'Themenfelder',
