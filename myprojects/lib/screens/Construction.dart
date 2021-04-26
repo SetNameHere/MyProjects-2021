@@ -45,7 +45,7 @@ class Construction extends StatelessWidget {
               Text('Hilf mit unter:', style: TextStyle(fontSize: 20)),
               TextButton(
                   child: Text(
-                    'https://github.com/SetNameHere/MyProjects',
+                    'https://github.com/SetNameHere/MyProjects-Platform',
                     style: TextStyle(
                       fontSize: 20,
                       height: 1.5,
@@ -54,7 +54,7 @@ class Construction extends StatelessWidget {
                     ),
                   ),
                   onPressed: () => launch(
-                      'https://github.com/SetNameHere/MyProjects')),
+                      'https://github.com/SetNameHere/MyProjects-Platform')),
               SizedBox(height: height * 0.05),
               Impressum()
             ],
