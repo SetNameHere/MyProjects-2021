@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:myprojects/DataModels/ChallengesModel.dart';
 import 'package:myprojects/DataModels/LearningThemesModel.dart';
+import 'package:myprojects/Extensions/DrawerContent.dart';
 import 'package:myprojects/screens/Impressum.dart';
 import 'dart:convert';
 
@@ -24,24 +25,7 @@ class ChallengesScreen extends StatelessWidget {
     return Scaffold(
       endDrawer: Drawer(
           //menu in the top right of the screen
-          child: ListView(
-        children: <Widget>[
-          ListTile(
-              //Button for routing to Sign-In/Register Page
-              onTap: () => Navigator.pushNamed(context,
-                  '/under-construction'), //when button is tapped, user is routed to this subpage
-              title: Text(
-                'Anmelden/Registrieren',
-              )),
-          ListTile(
-              //button for routing to Lerningpaths subpage
-              onTap: () => Navigator.pushNamed(context,
-                  '/learning-challenges'), //when button is tapped, user is routed to this subpage
-              title: Text(
-                'Lern - Challenges',
-              )),
-        ],
-      )),
+          child: DrawerContent()),
       appBar: AppBar(
         backgroundColor: Colors.grey[600], //sets color of AppBar
         title: Row(children: <Widget>[

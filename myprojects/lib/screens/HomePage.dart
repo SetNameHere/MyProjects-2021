@@ -83,7 +83,7 @@ class HomePage extends StatelessWidget {
                     mainAxisAlignment: MainAxisAlignment.start,
                     children: [
                       Text(
-                        'Verbesserung durch Projekte!',
+                        'Lernen durch Tun!',
                         style: TextStyle(
                           fontSize: 35,
                           fontStyle: FontStyle.italic,
@@ -147,7 +147,7 @@ class HomePage extends StatelessWidget {
                       TextButton(
                           //link to a example profil
                           child: Text(
-                            'Hier ein fühes Beispielprofil',
+                            'Hier ein frühes Beispielprofil',
                             style: TextStyle(
                               fontSize: 20,
                               height: 1.5,
@@ -161,7 +161,7 @@ class HomePage extends StatelessWidget {
                                   builder: (BuildContext context) =>
                                       ExampleProfil()))),
                       Text(
-                        'Unter dem Beispielprofil findest du auch noch weitere Hintergrundinformationen zu MyProjects.\n\nDoch damit MyProjects das alles bieten kann brauchen wir dich - und zwar nicht nur als Nutzer.\n\nMyProjects ist komplett Open Source, was bedeutet, dass du es aktiv mitgestalten und selbst programmieren kannst. Nicht nur beim Design von MyProjects gibts noch einiges zu verbessern! Hier geht’s zum GitHub Repository:',
+                        'Unter dem Beispielprofil findest du auch noch weitere Hintergrundinformationen zu MyProjects. Professionals soll es später  auch möglich sein ihren Arbeitsaltag in ihrem Profil zu beschreiben und Kompetenzen aufzuführen, die aus ihrer Sicht für ihren Job wichtig sind, was wiederum insbesondere Schüler bei der Berufsorientierung unterstützen, sowie Anregungen geben soll mit welchen Themen sie sich beschäftigen könnten.\n\nDoch damit MyProjects das alles bieten kann brauchen wir dich - und zwar nicht nur als Nutzer.\n\nMyProjects ist komplett Open Source, was bedeutet, dass du es aktiv mitgestalten und selbst programmieren kannst. Wenn du zum Beispiel der Meinung bist, dass MyProjects die Berufsorientierung noch auf andere Weise unterstützen sollte (bspw. durch veröffentlichte Berufssteckbriefe), dann mach doch gerne einen Vorschlag. Denn nicht nur beim Design von MyProjects gibt es noch einiges zu verbessern! Zum GitHub Repository gehts hier:',
                         textAlign: TextAlign.justify,
                         style: TextStyle(
                           fontSize: 20,
@@ -184,7 +184,7 @@ class HomePage extends StatelessWidget {
                               'https://github.com/SetNameHere/MyProjects-2021')),
                       SizedBox(height: height * 0.025),
                       Text(
-                        'Du hast noch keine Ahnung von Git, GitHub, Flutter (Web) oder Firebase, was die Grundlage für MyProjects bildet? Kein Problem! Dann ist das deine erste Challenge. Recherchiere und beschäftige dich mit den  Technologien. Probiere sie aktiv aus. Tutorials gibt es im Internet genug. Insbesondere, falls du später mit der Entwicklung von Software zu tun haben willst, wird sich der Aufwand für dich sicher lohnen!',
+                        'Du hast noch keine Ahnung von Git, GitHub, Flutter (Web) oder Firebase, was die Grundlage für MyProjects bildet? Kein Problem! Dann ist das deine erste Challenge. Recherchiere und beschäftige dich mit den Technologien. Probiere sie aktiv aus. Tutorials gibt es im Internet genug. Insbesondere, falls du später mit der Entwicklung von Software zu tun haben willst, wird sich der Aufwand für dich sicher lohnen!',
                         textAlign: TextAlign.justify,
                         style: TextStyle(
                           fontSize: 20,
